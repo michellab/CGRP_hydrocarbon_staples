@@ -1,0 +1,6 @@
+parm parm.prmtop
+trajin prod.nc
+strip :WAT,Na+,Cl-,OL,PA,PC
+trajout prod_dry.nc
+run
+quit
