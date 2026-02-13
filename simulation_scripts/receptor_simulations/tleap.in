@@ -1,0 +1,25 @@
+source leaprc.protein.ff19SB
+loadamberparams add-ff.frcmod
+loadoff S51.lib
+loadoff S52.lib
+source oldff/leaprc.lipid17
+source leaprc.water.opc
+loadamberparams frcmod.ionslm_126_opc
+
+foo = loadpdb PDBfile_ready_for_tleap.pdb 
+set foo box {145.46800231933594, 145.77899932861328, 164.94199752807617}
+
+bond foo.285.SG foo.355.SG
+bond foo.163.SG foo.200.SG
+bond foo.131.SG foo.149.SG
+bond foo.29.SG foo.76.SG
+bond foo.140.SG foo.180.SG
+bond foo.12.SG foo.44.SG
+bond foo.467.CY foo.471.CY
+
+addionsrand foo Na+ 0
+addionsrand foo Cl- 0
+
+saveamberparm foo peptide4.prmtop peptide4.inpcrd
+savepdb foo peptide4_fromtleap.pdb
+quit

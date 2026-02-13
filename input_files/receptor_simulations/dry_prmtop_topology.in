@@ -1,4 +1,0 @@
-parm parm.prmtop
-parmstrip :WAT,Na+,Cl-,OL,PA,PC
-parmwrite out dry.prmtop
-quit

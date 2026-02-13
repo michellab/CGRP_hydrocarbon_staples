@@ -1,0 +1,13 @@
+System minimization
+ &cntrl
+  imin=1,
+  maxcyc=100000,
+  ncyc=50000,
+  ntb=1,
+  ntp=0,
+  ntf=1,
+  ntc=1,
+  ntpr=50,
+  ntwr=2000,
+  cut=9.0,
+ /

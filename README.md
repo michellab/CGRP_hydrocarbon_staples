@@ -1,8 +1,8 @@
 # Files for the "Computational Design, Synthesis and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor" paper
 
-## input_files
+## simulation_scripts
 
-Contains scripts to run simulations with the AMBER molecular dynamics engine (`min`, `heat`, `eq`, `prod` files), as well as some utility scripts for removing water molecules from trajectories (`dry_trajectory.in`) and preparing PDB files as inputs for simulations (`tleap.in`).
+Contains scripts to run simulations with the AMBER molecular dynamics engine (`min`, `heat`, `eq`, `prod` files), as well as some utility scripts for removing water and lipid bilayer molecules from trajectories (`dry_trajectory.in`) and preparing PDB files as inputs for simulations (`tleap.in`).
 
 ## parameter_files
 
@@ -15,6 +15,15 @@ Contains PDB files of the peptides in complex with the CGRP receptor, embedded i
 ## water_simulation_models
 
 Contains PDB files of the peptides in the absence of receptor, membrane and water. These files are processed with tleap to generate simulation input files.
+
+## input_files
+
+Contains topology and coordinate files used as input for MD simulations.
+
+## output_files
+
+Contains output files from MD simulations (PDB of representative structures and simulation trajectories). Note that water molecules, lipid bilayer molecules, Na+ and Cl- ions, and hydrogen atoms have been removed to allow for smaller trajectory file sizes. Additionally, the trajectory files have been compressed. To uncompress them, run:
+``tar -xvf file.tar.xz``
 
 ## scripts_notebooks
 
