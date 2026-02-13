@@ -22,7 +22,7 @@ Contains topology and coordinate files used as input for MD simulations.
 
 ## output_files
 
-Contains output files from MD simulations (PDB of representative structures and simulation trajectories). Note that water molecules, lipid bilayer molecules, Na+ and Cl- ions, and hydrogen atoms have been removed to allow for smaller trajectory file sizes. Additionally, the trajectory files have been compressed. To uncompress them, run:
+Contains output files from MD simulations (PDB of representative structures and simulation trajectories in tar.xz format). Note that water molecules, lipid bilayer molecules, Na+ and Cl- ions, and hydrogen atoms have been removed to allow for smaller trajectory file sizes. Additionally, the trajectory files have been compressed. To uncompress them, run:
 ``tar -xvf file.tar.xz``
 
 ## scripts_notebooks
