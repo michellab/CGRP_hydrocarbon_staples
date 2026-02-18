@@ -10,7 +10,7 @@ Contains the lib and frcmod files necessary to parameterise the stapled residues
 
 ## receptor_bound_models
 
-Contains PDB files of the peptides in complex with the CGRP receptor, embedded in a lipid bilayer and solvated in water at 0.15 M NaCl. These files were afterwards processed with tleap to generate input files for simulations in the presence of the receptor.
+Contains PDB files of the peptides in complex with the CGRP receptor, embedded in a lipid bilayer and solvated in water at 0.15 M NaCl. These files were afterwards processed with tleap to generate input files for simulations in the presence of the receptor. We have also included alternative files where the receptor and ligand are in different chains to facilitate visualising in e.g. PyMol.
 
 ## water_simulation_models
 
