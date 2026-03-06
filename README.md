@@ -1,4 +1,5 @@
-# Files for the "Computational Design, Synthesis and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor" paper
+# Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor
+This repository contains files related to the computational study as described in "Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor" paper.
 
 ## simulation_scripts
 
@@ -30,4 +31,4 @@ Contains output files from MD simulations (PDB of representative structures and 
 Contains scripts to prepare (`tleap_preparation_lipids.ipynb`), run (`md_receptor_script.sh`, `md_water_script.sh`) and post-process simulations (`trajectory_analysis.ipynb`, `loop_get_dynamic_interactions.sh`, `GetContactAnalysis_lig-rec.ipynb`, `GetContacts_lig-lig.ipynb`).
 
 ## Citation
-TBD
+Schofield, A.L.; Notari, E.; Rožňovcová, M.; Cox, K.W.; D'Aloisio, V.; Steuer, C.; Michel, J.; Cottrell, G.S.; Coxon, C.R. Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor. *J. Med. Chem.* **2026**, Article ASAP.
