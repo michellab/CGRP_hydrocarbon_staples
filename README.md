@@ -1,5 +1,5 @@
 # Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor
-This repository contains files related to the computational study as described in "Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor" paper.
+This repository contains files related to the computational study as described in the "Computational Design, Synthesis, and Evaluation of Stapled Peptide-Based Antagonists of the CGRP Receptor" paper.
 
 ## simulation_scripts
 
